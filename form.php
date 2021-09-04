@@ -28,7 +28,7 @@ class Form
 {   //Sinif ozellikleri tanimlamalari//
     private string $action;
     private string $method;
-    public array $fields;
+    public array $fields = [];
 
     private function __construct(string $action,string $method)
     {//Action ve method degerleri atamasi.//
